@@ -1,0 +1,18 @@
+.header-content{
+    display: flex;
+}
+
+
+.header-logo{
+    width: 210px;
+    height:68px ;
+    margin-right: auto;
+}
+.nav{
+    display: flex;
+}
+.nav-link{
+    padding: 20px 20px;
+    text-decoration: none;
+    color: black;
+}
