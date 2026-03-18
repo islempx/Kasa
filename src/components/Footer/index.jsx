@@ -3,7 +3,7 @@ import './Footer.css'
 function Footer() {
   return (<footer>
 
-<p>c Kasa  2026     
+<p>© 2020 Kasa. All rights reserved    
 </p>
 
   </footer>)
