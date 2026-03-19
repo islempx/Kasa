@@ -1,0 +1,26 @@
+.card{
+width: 335px;
+height: 35vh;
+border-radius: 16px;
+background-size: cover;    
+background-position: center; 
+display: flex;
+align-items:flex-end;
+color: white; 
+border-radius: 16px;
+overflow: hidden;
+margin-bottom: 30px;
+}
+.card-overlay {
+  width: 100%;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 96, 96, 0.55);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  text-align: start;
+  padding: 5px;
+}
+.titre-logements{
+    font-size: 18px;
+}
+

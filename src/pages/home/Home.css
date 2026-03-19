@@ -1,0 +1,10 @@
+.card-container{
+    background-color: #F6F6F6;
+    height: 70vh;
+    border-radius: 16px;
+    margin: 30px 0px 30px 0px ;
+    height: 100%;
+    padding : 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
