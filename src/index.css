@@ -107,7 +107,7 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
-@media (max-width: 1024px)  {
+@media (max-width: 767.98px) {
   .header-content {
     padding: 30px 0px 30px 10px;
 }
@@ -123,6 +123,7 @@ code {
    flex-direction: column;
    display: flex;
    padding: 20px;
+   gap: 0px;
    
   }
    .hero-container{
@@ -133,5 +134,8 @@ code {
   .hero-title {
   font-size: 24px; 
   text-align:start;
+}
+.footer-logo{
+      margin-left: 55px;
 }
   }

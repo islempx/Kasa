@@ -10,7 +10,7 @@ function Home() {
     <Hero image={heroHome} title="Chez vous, partout et ailleurs" overlay={0.55}/>
     <main className='card-container'>
       {logements.map(({id,cover,title,}) => (
-     <Link className='nav-link' to={`/fiche/${id}` } key ={id}>
+     <Link className='card-link' to={`/fiche/${id}` } key ={id}>
       <Card
           title={title}
           cover={cover} 

@@ -7,3 +7,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
 }
+.card-link{
+ padding: 13px 0px;
+    text-decoration: none;
+    color: black;}
