@@ -5,7 +5,7 @@ import heroHome from '../../assets/hero-home.png'
 
 
 function Home() {
-  return <div>Accueil 
+  return <div>
     <Hero image={heroHome} title="Chez vous, partout ailleurs" overlay={0.55}/>
   </div>
 }

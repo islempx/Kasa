@@ -5,7 +5,7 @@ import heroAbout from '../../assets/hero-about.png'
 
 
 function About() {
-  return <div>Page About
+  return <div>
     <Hero  image = {heroAbout} alt="image d'un paysage montagneux"  overlay={0.0}/>
   </div>
 }
