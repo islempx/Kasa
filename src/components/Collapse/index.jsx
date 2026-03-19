@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './Collapse.css'
 
-const Collapse = ({ title, content }) => {
+const Collapse = ({ title, content,id }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className="collapse">
+    <div className="collapse" key={id}>
       
       <div className="collapse-header" onClick={() => setIsOpen(!isOpen)}>
         <h2>{title}</h2>

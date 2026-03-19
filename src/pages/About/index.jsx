@@ -9,9 +9,10 @@ import { aboutList } from '../../datas/aboutlist';
 function About() {
   return <div>
     <Hero  image = {heroAbout} alt="image d'un paysage montagneux"  overlay={0.0}/>
-     {aboutList.map(({content,title,}) => (
+     {aboutList.map(({id,content,title}) => (
      
       <Collapse
+         key={id}
           title={title}
           content={content} 
       />

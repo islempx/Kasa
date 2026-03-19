@@ -109,15 +109,16 @@ code {
 }
 @media (max-width: 767.98px) {
   .header-content {
-    padding: 30px 0px 30px 10px;
+    padding: 30px 0px 30px 20px;
 }
   .header-logo{
     width: 145px;
     height:46px ;
-    margin-right: auto;
+    margin-right: 35px;
 }
 .nav-link {
     padding: 13px 20px;
+    font-size: 12px;
 }
   .card-container{
    flex-direction: column;
@@ -134,6 +135,10 @@ code {
   .hero-title {
   font-size: 24px; 
   text-align:start;
+}
+.collapse {
+  width: 90vw;
+  margin: 50px 20px;
 }
 .footer-logo{
       margin-left: 55px;
