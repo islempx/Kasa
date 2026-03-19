@@ -7,7 +7,7 @@ import logements from "../../datas/logements.json"
 
 function Home() {
   return <div>
-    <Hero image={heroHome} title="Chez vous, partout ailleurs" overlay={0.55}/>
+    <Hero image={heroHome} title="Chez vous, partout et ailleurs" overlay={0.55}/>
     <main className='card-container'>
       {logements.map(({id,cover,title}) => (
    

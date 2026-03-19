@@ -107,3 +107,31 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+@media (max-width: 1024px)  {
+  .header-content {
+    padding: 30px 0px 30px 10px;
+}
+  .header-logo{
+    width: 145px;
+    height:46px ;
+    margin-right: auto;
+}
+.nav-link {
+    padding: 13px 20px;
+}
+  .card-container{
+   flex-direction: column;
+   display: flex;
+   padding: 20px;
+   
+  }
+   .hero-container{
+    height: 111px;
+    width: 90%;
+    margin:0 20px;
+   }
+  .hero-title {
+  font-size: 24px; 
+  text-align:start;
+}
+  }
