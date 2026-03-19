@@ -9,14 +9,13 @@ function Home() {
   return <div>
     <Hero image={heroHome} title="Chez vous, partout et ailleurs" overlay={0.55}/>
     <main className='card-container'>
-      {logements.map(({id,cover,title}) => (
-   
+      {logements.map(({id,cover,title,}) => (
+     <Link className='nav-link' to={`/fiche/${id}` } key ={id}>
       <Card
-          key ={id}
           title={title}
-          cover={cover}
-        
+          cover={cover} 
       />
+      </Link>
      ))}
     </main>
   </div>
