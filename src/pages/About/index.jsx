@@ -10,14 +10,16 @@ function About() {
   return <div>
     <Hero  image = {heroAbout} alt="image d'un paysage montagneux"  overlay={0.0}/>
      {aboutList.map(({id,content,title}) => (
-     
-      <Collapse
-         key={id}
-          title={title}
-          content={content} 
-      />
-    
+     <div className='collapse-container'>
+          <Collapse
+            key={id}
+            title={title}
+            content={content} 
+            width="60vw"
+          />
+    </div>
      ))}
+     
     
   </div>
 }
