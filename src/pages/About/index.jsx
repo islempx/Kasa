@@ -10,9 +10,8 @@ function About() {
   return <div>
     <Hero  image = {heroAbout} alt="image d'un paysage montagneux"  overlay={0.0}/>
      {aboutList.map(({id,content,title}) => (
-     <div className='collapse-container'>
+     <div className='collapse-container' key={id}  >
           <Collapse
-            key={id}
             title={title}
             content={content} 
             width="60vw"

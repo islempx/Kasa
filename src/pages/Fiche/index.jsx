@@ -24,7 +24,7 @@ const Fiche = () => {
       <div className='logements-info-container'>
 
         <div className='left-info'>
-          <h3 className='titre-logements'>{logement.title}</h3>
+          <h3 className='titre-logements-fiche'>{logement.title}</h3>
           <p className='localisation'>{logement.location}</p>
 
           <div className='btn-container'>
