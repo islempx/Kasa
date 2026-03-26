@@ -1,33 +1,35 @@
 .logements-info-container{
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
-
-.img-logements{
-    width: 72vw;
-    height: 50vh;
-}
 .titre-logements{
  font-family: Montserrat;
 color: #FF6060;
 font-weight: 500;
 font-size: 36px;
 letter-spacing: 0%;
-margin: 25px 0px 5px 0px;
+margin: 0px 0px 5px 0px;
 text-align: start;
 
+}
+.top-mobile-info {
+ 
+  align-items: center;
 }
 .left-info{
     display: grid;
     justify-content: flex-start;
-    margin-bottom: 50px;
 
 }
 .right-info{
     display: grid;
     justify-content: flex-end;
-    margin-bottom: 50px;
+}
+.left-info,
+.right-info {
+    align-self: flex-start;
 }
 .localisation{
 font-family: Montserrat;
@@ -40,14 +42,15 @@ text-align: start;
 display: flex;
 }
 .btn-logements{
-
+    width: 115px;
     font-size: 14px;
     font-weight: 700;
     font-family: Montserrat;
     background-color: #FF6060;
     border: none;
-    border-radius: 16px;
-    margin: 20px 20px 20px 0px;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 20px 20px 15px 0px;
 
 }
 
@@ -61,6 +64,7 @@ align-items: center;
     color: #FF6060;
     margin-right:10px ;
     font-size: 18px;
+    width: 70px;
 }
 .host-picture{
     border-radius:100%;
@@ -72,5 +76,14 @@ align-items: center;
   gap: 5px; 
   align-items: center; 
   justify-content: flex-end;
-  margin: 20px 0px 20px 0px;
+  margin: 20px 0px 16px 0px;
 }
+.collapse-fiche {
+  width: 33vw;
+  margin-bottom: 50px;
+}
+.collapse-wrapper{
+display: flex;
+justify-content: space-between;
+}
+
