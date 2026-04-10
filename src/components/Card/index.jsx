@@ -1,4 +1,3 @@
-import './Card.css'
 
 const Card = ({id,cover,title}) => {
 return <div key = {id} className='card' style={{ backgroundImage: `url(${cover})` }}>

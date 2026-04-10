@@ -1,0 +1,39 @@
+@use "../../styles/utils/variables" as *;
+@use "../../styles/utils/mixins" as *;
+
+
+  .number {
+    font-size: 288px;
+    font-family: $font-main;
+    font-weight: 700;
+    color: $primary-color;
+    margin: 200px;
+    @include mobile {
+    font-size: 96px;
+    margin:100px 0px 100px 0px;
+    }
+  }
+
+  .Oups {
+    font-size: 36px;
+    font-family: $font-main;
+    font-weight: 500;
+    color: $primary-color;
+    margin: 50px;
+    @include mobile {
+    font-size: 18px;
+    margin:150px 0px 100px 0px;
+    }
+  }
+
+  .link-home {
+    display: inline-block;
+    font-size: 18px;
+    font-family: $font-main;
+    margin: 100px;
+    color: $black;
+    @include mobile {
+   font-size: 14px;
+   margin: 85px 0px;
+    }
+  }

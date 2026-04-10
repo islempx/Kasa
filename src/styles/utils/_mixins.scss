@@ -1,0 +1,21 @@
+@mixin mobile {
+  @media (max-width: 767.98px) {
+    @content;
+  }
+}
+@mixin small-mobile {
+  @media (max-width: 330px) {
+    @content;
+  }
+}
+@mixin big-mobile {
+  @media (min-width: 425px) and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

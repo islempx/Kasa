@@ -1,0 +1,13 @@
+@use "../../styles/utils/variables" as *;
+
+footer {
+  background-color: $black;
+  height: 15vh;
+  display: grid;
+  place-items: center;
+}
+
+
+.copyright {
+  margin-top: 10px;
+}

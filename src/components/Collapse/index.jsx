@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './Collapse.css'
 
 const Collapse = ({ title, content, id, className = "" }) => {
   const [isOpen, setIsOpen] = useState(false)
@@ -9,11 +8,11 @@ const Collapse = ({ title, content, id, className = "" }) => {
       
       <div 
         className="collapse-header"   
-        onClick={() => setIsOpen(!isOpen)}
+       
       >
         <h2 className='title-collapse'>{title}</h2>
         
-        <button className="btn">
+        <button className="btn" onClick={() => setIsOpen(!isOpen)}>
           <i className={`fa-solid ${isOpen ? 'fa-angle-down' : 'fa-angle-up'}`}></i>
         </button>
       </div>

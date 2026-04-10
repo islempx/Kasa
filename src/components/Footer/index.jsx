@@ -1,4 +1,3 @@
-import './Footer.css'
 import blackKasa from '../../assets/black-kasa.png'
 
 function Footer() {

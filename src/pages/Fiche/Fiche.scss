@@ -1,0 +1,160 @@
+@use "../../styles/utils/variables" as *;
+@use "../../styles/utils/mixins" as *;
+
+.logements-info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  @include mobile{
+    flex-direction: column;
+  }
+}
+
+.titre-logements-fiche {
+  font-family: $font-main;
+  color: $primary-color;
+  font-weight: 500;
+  font-size: 36px;
+  margin: 0 0 5px 0;
+  text-align: start;
+}
+
+.top-mobile-info {
+  align-items: center;
+  @include mobile{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  }
+}
+
+.left-info {
+  display: grid;
+  justify-content: flex-start;
+}
+
+.right-info {
+  display: grid;
+  justify-content: flex-end;
+  @include mobile{
+    width: 100%;
+    display: block;
+  }
+}
+
+.left-info,
+.right-info {
+  align-self: flex-start;
+  @include mobile{
+    width: 100%;
+    justify-content: left;
+  }
+}
+
+.localisation {
+  font-family: $font-main;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  text-align: start;
+  @include mobile{
+    font-size: 14px;
+  }
+}
+
+
+
+.btn-logements {
+  width: 115px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: $font-main;
+  background-color: $primary-color;
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+  margin: 20px 20px 15px 0;
+
+  @include mobile {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
+
+.host-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  @include mobile{
+    gap: 10px;
+    order: 2;
+  }
+
+  .host-name {
+    color: $primary-color;
+    margin-right: 10px;
+    font-size: 18px;
+    width: 70px;
+    @include mobile{
+    font-size:15px ;
+  }
+  }
+
+  .host-picture {
+    border-radius: 100%;
+    width: 64px;
+  }
+}
+
+.rating {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 20px 0 16px 0;
+  @include mobile{
+    order: 1;
+  }
+}
+
+.collapse-fiche {
+  width: 33vw;
+  margin-bottom: 50px;
+  @include mobile {
+   width: 90vw;
+    margin: 0px;
+}
+}
+
+.collapse-wrapper {
+  display: flex;
+  justify-content: space-between;
+  @include mobile{
+  display: grid;
+   justify-self: start;
+    margin-top: 25px;
+    gap: 25px;
+}
+}
+@include mobile {
+
+  .fiche-container {
+    padding: 15px;
+  }
+   .host-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+  }
+  .stars{
+    height: 18px;
+  }
+ .btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  }
+
+}

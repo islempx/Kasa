@@ -8,6 +8,7 @@ import About from './pages/About'
 import Error from './pages/Error'
 import Fiche from './pages/Fiche'
 import './index.css'
+import "../src/styles/main.scss";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

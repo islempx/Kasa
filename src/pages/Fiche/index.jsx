@@ -1,5 +1,4 @@
 import { Navigate, useParams } from 'react-router-dom';
-import './Fiche.css';
 import logements from "../../datas/logements.json";
 import Collapse from '../../components/Collapse';
 import redStar from '../../assets/redstar.png';

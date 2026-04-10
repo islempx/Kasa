@@ -1,0 +1,26 @@
+@use "../../styles/utils/variables" as *;
+@use "../../styles/utils/mixins" as *;
+
+.card {
+  &-container {
+    background-color: $dark-grey;
+    border-radius: $radius-md;
+    margin: 30px 0;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    @include mobile{
+       flex-direction: column;
+      display: flex;
+      padding: 20px;
+      gap: 0px;
+    }
+  }
+
+  &-link {
+    padding: 13px 0;
+    text-decoration: none;
+    color: $black;
+  }
+}

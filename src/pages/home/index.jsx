@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import './Home.css'
 import Hero from '../../components/Hero'
 import Card from '../../components/Card'
 import heroHome from '../../assets/hero-home.png'

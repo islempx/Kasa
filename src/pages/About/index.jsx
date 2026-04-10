@@ -1,4 +1,3 @@
-import './About.css'
 import Hero from '../../components/Hero'
 import heroAbout from '../../assets/hero-about.png'
 import Collapse from '../../components/Collapse'
